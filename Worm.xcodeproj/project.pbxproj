@@ -15,6 +15,7 @@
 		9E6ACC1D1C0CAB430030F6CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6ACC1B1C0CAB430030F6CE /* LaunchScreen.storyboard */; };
 		9E6ACC281C0CAB430030F6CE /* WormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6ACC271C0CAB430030F6CE /* WormTests.m */; };
 		9E6ACC331C0CAB430030F6CE /* WormUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6ACC321C0CAB430030F6CE /* WormUITests.m */; };
+		9E6ACC421C0CAB610030F6CE /* Worm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6ACC411C0CAB610030F6CE /* Worm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9E6ACC2E1C0CAB430030F6CE /* WormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6ACC321C0CAB430030F6CE /* WormUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WormUITests.m; sourceTree = "<group>"; };
 		9E6ACC341C0CAB430030F6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E6ACC401C0CAB610030F6CE /* Worm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worm.h; sourceTree = "<group>"; };
+		9E6ACC411C0CAB610030F6CE /* Worm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Worm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				9E6ACC131C0CAB430030F6CE /* ViewController.h */,
 				9E6ACC141C0CAB430030F6CE /* ViewController.m */,
 				9E6ACC161C0CAB430030F6CE /* Main.storyboard */,
+				9E6ACC401C0CAB610030F6CE /* Worm.h */,
+				9E6ACC411C0CAB610030F6CE /* Worm.m */,
 				9E6ACC191C0CAB430030F6CE /* Assets.xcassets */,
 				9E6ACC1B1C0CAB430030F6CE /* LaunchScreen.storyboard */,
 				9E6ACC1E1C0CAB430030F6CE /* Info.plist */,
@@ -275,6 +280,7 @@
 			files = (
 				9E6ACC151C0CAB430030F6CE /* ViewController.m in Sources */,
 				9E6ACC121C0CAB430030F6CE /* AppDelegate.m in Sources */,
+				9E6ACC421C0CAB610030F6CE /* Worm.m in Sources */,
 				9E6ACC0F1C0CAB430030F6CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
